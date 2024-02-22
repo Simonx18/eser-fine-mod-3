@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fakeflix</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #141414;
+      padding-left: 15px;
+    padding-right: 15px;
+    }
+    body, .navbar {
+      background-color: #141414;
+    }
+    body h2{
+        color: white;
+    }
+    .carousel-item img {
+      transition: transform 0.5s;
+    }
+    .carousel-item img:hover {
+        transform: scale(1.1)
+    }
+    footer {
+        background-color: #141414;
+      padding: 20px 0;
+    }
+
+    .footer-columns {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .footer-column {
+      flex: 0 0 20%;
+      text-align: center;
+    }
+
+    .footer-social-icons img {
+      width: 30px;
+      margin: 5px;
+    }
+    .btn-custom {
+    background-color: #141414;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand text-white" href="#"><img src="assets/imgs/Netflix_Logo_RGB.png" alt="Immagine Sito" style="height: 45px;"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">TV Shows</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Movies</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Recently Added</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">My List</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+              <a class="nav-link" href="#"><img src="assets/imgs/logolente.png" alt="logo-lente" style="height: 30px;"></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">KIDS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><img src="assets/imgs/logo-campanella.png" alt="logo-lente" style="height: 30px;"></a>
+            </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><img src="assets/imgs/netflix-profile-pictures-1000-x-1000-dyrp6bw6adbulg5b.jpg" alt="Immagine Profilo" style="height: 30px; border-radius: 50%;"></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <span class="navbar-text text-white h2 mr-3">
+        TV Shows
+    </span>
+    <form class="form-inline">
+        <select class="form-control bg-dark text-white">
+            <option selected>Genres</option>
+            <option>Action</option>
+            <option>Drama</option>
+            <option>Comedy</option>
+            <option>Science Fiction</option>
+        </select>
+    </form>
+</nav>
+<h2 class="mt-5 mx-3">Trending Now</h2>
+    <div id="carouselTrendingNow" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row align-items-start mx-3">
+                    <div class="col-md-2 p-0">
+                        <img src="assets/imgs/movies/1.png" class="d-block w-100" alt="Immagine 1">
+                    </div>
+                    <div class="col-md-2 p-0">
+                        <img src="assets/imgs/movies/2.png" class="d-block w-100" alt="Immagine 2">
+                    </div>
+                    <div class="col-md-2 p-0">
+                        <img src="assets/imgs/movies/3.png" class="d-block w-100" alt="Immagine 3">
+                    </div>
+                    <div class="col-md-2 p-0">
+                        <img src="assets/imgs/movies/4.png" class="d-block w-100" alt="Immagine 4">
+                    </div>
+                    <div class="col-md-2 p-0">
+                        <img src="assets/imgs/movies/5.png" class="d-block w-100" alt="Immagine 5">
+                    </div>
+                    <div class="col-md-2 p-0">
+                        <img src="assets/imgs/movies/6.png" class="d-block w-100" alt="Immagine 6">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <h2 class="mt-5 mx-3">Watch It Again</h2>
+    <div id="carouselTrendingNow" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row align-items-start mx-3">
+                    <div class="col-md-2 p-0">
+                        <img src="assets/imgs/movies/7.png" class="d-block w-100" alt="Immagine 7">
+                    </div>
+                    <div class="col-md-2 p-0">
+                        <img src="assets/imgs/movies/8.png" class="d-block w-100" alt="Immagine 8">
+                    </div>
+                    <div class="col-md-2 p-0">
+                        <img src="assets/imgs/movies/9.png" class="d-block w-100" alt="Immagine 9">
+                    </div>
+                    <div class="col-md-2 p-0">
+                        <img src="assets/imgs/movies/10.png" class="d-block w-100" alt="Immagine 10">
+                    </div>
+                    <div class="col-md-2 p-0 ">
+                        <img src="assets/imgs/movies/11.png" class="d-block w-100" alt="Immagine 11">
+                    </div>
+                    <div class="col-md-2 p-0">
+                        <img src="assets/imgs/movies/12.png" class="d-block w-100" alt="Immagine 12">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h2 class="mt-5 mx-3">New Releases</h2>
+    <div id="carouselTrendingNow" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row align-items-start mx-3 mb-4">
+                    <div class="col-md-2 p-0">
+                        <img src="assets/imgs/movies/13.png" class="d-block w-100" alt="Immagine 13">
+                    </div>
+                    <div class="col-md-2 p-0">
+                        <img src="assets/imgs/movies/14.png" class="d-block w-100" alt="Immagine 14">
+                    </div>
+                    <div class="col-md-2 p-0">
+                        <img src="assets/imgs/movies/15.png" class="d-block w-100" alt="Immagine 15">
+                    </div>
+                    <div class="col-md-2 p-0">
+                        <img src="assets/imgs/movies/16.png" class="d-block w-100" alt="Immagine 16">
+                    </div>
+                    <div class="col-md-2 p-0">
+                        <img src="assets/imgs/movies/17.png" class="d-block w-100" alt="Immagine 17">
+                    </div>
+                    <div class="col-md-2 p-0">
+                        <img src="assets/imgs/movies/18.png" class="d-block w-100" alt="Immagine 18">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md text-center mb-4 mt-5">
+              <div class="footer-social-icons">
+                <a href="#"><img src="assets/imgs/facebook-logo.png" alt="Facebook"></a>
+                <a href="#"><img src="assets/imgs/instagram-logo.png" alt="Instagram"></a>
+                <a href="#"><img src="assets/imgs/twitter-logo.png" alt="Twitter"></a>
+                <a href="#"><img src="assets/imgs/youtube-logo.png" alt="YouTube"></a>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md">
+              <ul class="list-unstyled">
+                <li><a href="#" style="color: gray;">Audio and Subtitles</a></li>
+                <li><a href="#" style="color: gray;">Media Center</a></li>
+                <li><a href="#" style="color: gray;">Privacy</a></li>
+                <li><a href="#" style="color: gray;">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="col-md">
+              <ul class="list-unstyled">
+                <li><a href="#" style="color: gray;">Audio Descriptions</a></li>
+                <li><a href="#" style="color: gray;">Investor Relations</a></li>
+                <li><a href="#" style="color: gray;">Legal Notices</a></li>
+              </ul>
+            </div>
+            <div class="col-md">
+              <ul class="list-unstyled">
+                <li><a href="#" style="color: gray;">Help Center</a></li>
+                <li><a href="#" style="color: gray;">Jobs</a></li>
+                <li><a href="#" style="color: gray;">Cookie Preferences</a></li>
+              </ul>
+            </div>
+            <div class="col-md">
+              <ul class="list-unstyled">
+                <li><a href="#" style="color: gray;">Gift Cards</a></li>
+                <li><a href="#" style="color: gray;">Terms of Use</a></li>
+                <li><a href="#" style="color: gray;">Corporate Information</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md text-center mt-4">
+              <button class="btn btn-primary btn-custom">Service Code</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md text-center mt-3">
+              <p>1997 - 2019 Netflix, Inc.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
